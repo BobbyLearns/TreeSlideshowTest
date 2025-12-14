@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>lightgallery demo</title>
+
+    <!-- lightgallery.js CSS -->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.2.0/css/lightgallery.min.css" />
+    <!-- lightgallery.js JavaScript -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.2.0/js/lightgallery.min.js"></script>
+
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <h1 class="hdg-1">lightgallery demo</h1>
+
+    <!--
+      https://hsmt-web.com/blog/js-lightgallery/
+    -->
+    <div class="lightgallery gallery">
+      <a class="gallery_item" href="./images/cat-01.jpg">
+        <img class="img" src="./images/thumb-cat-01.jpg" />
+      </a>
+      <a class="gallery_item" href="./images/cat-02.jpg">
+        <img class="img" src="./images/thumb-cat-02.jpg" />
+      </a>
+      <a class="gallery_item" href="./images/cat-03.jpg">
+        <img class="img" src="./images/thumb-cat-03.jpg" />
+      </a>
+    </div>
+
+    <script>
+      lightGallery(document.querySelector('.lightgallery'));
+    </script>
+  </body>
+</html>

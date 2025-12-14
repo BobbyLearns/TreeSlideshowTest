@@ -1,0 +1,21 @@
+.hdg-1 {
+  text-align: center;
+}
+
+.gallery {
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  gap: 30px 20px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+.gallery_item {
+  display: block;
+  width: calc(50% - 10px);
+}
+.gallery_item .img {
+  width: 100%;
+  height: auto;
+}
